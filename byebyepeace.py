@@ -5,8 +5,8 @@ from pynput.keyboard import Listener, KeyCode #controlar e monitorar o teclado
 
 start_stop_key = KeyCode(char='.') # é a chave para iniciar e parar o auto clicker
 exit_key = KeyCode(char=',') # é a chave para fechar o programa
-palavras = "vai se fude gustavo"
-delay = 0.5
+palavras = "frase pra spammar"
+delay = 0.5 # tempo de delay q vai ser enviado
 
 class spamfodase(threading.Thread):
 	def __init__ (self, delay): 
